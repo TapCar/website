@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomeEight from './HomeEight';
+import Home from './Home';
 import Login from './Login';
 import SignUp from './SignUp';
 import PasswordForget from './PasswordForget';
@@ -12,7 +12,7 @@ class Root extends React.Component {
   	return(
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
-			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeEight}/>
+			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
 			  <Route path={`${process.env.PUBLIC_URL}/login`} component={Login}/>    
 			  <Route path={`${process.env.PUBLIC_URL}/password-forget`} component={PasswordForget}/>  
 			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>  

@@ -6,7 +6,6 @@ import Descriptions from './components/Descriptions';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
 import Process from './components/Process';
-import Testi from './components/Reviews';
 import Started from './components/Started';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
@@ -17,7 +16,7 @@ import Switcher from './components/Switcher';
 import Aux from './hoc/Aux_';
 import Reviews from './components/Reviews';
 
-class HomeEight extends React.Component {
+class Home extends React.Component {
   render() {
 
     var bkg1 = {
@@ -96,4 +95,4 @@ class HomeEight extends React.Component {
   }
 }
 
-export default HomeEight;
+export default Home;
